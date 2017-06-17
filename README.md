@@ -4,7 +4,7 @@ A CLI inspired lambda chat bot and CLI. Built with [yargs](http://yargs.js.org),
 
 ## Resources
 
-- [Cladia.js](https://claudiajs.com/tutorials/index.html)
+- [Claudia.js](https://claudiajs.com/tutorials/index.html)
 - [Delayed Responses to Slack Slash Commands](https://claudiajs.com/tutorials/slack-delayed-responses.html)
 - [Yargs Docs](http://yargs.js.org/docs/)
 
