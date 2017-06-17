@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+const argv = require('yargs').argv;
+const _ = require('lodash');
+const command = require('../command');
+
+const text = process.argv.slice(2).join(' ');
+
+command(text)
+  .then(response => console.log(response.text))
+  .catch(console.error)
+  .then(() => false);

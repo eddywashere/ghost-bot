@@ -1,0 +1,46 @@
+{
+  "name": "ghost-bot",
+  "version": "1.0.0",
+  "description": "A chatbot and cli built with yargs & claudia.js",
+  "main": "bot.js",
+  "license": "MIT",
+  "author": "Eddy Hernandez <edward.d.hernandez@gmail.com> (https://eddywashere.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eddywashere/ghost-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddywashere/ghost-bot/issues"
+  },
+  "homepage": "https://github.com/eddywashere/ghost-bot#readme",
+  "scripts": {
+    "claudia": "claudia --no-optional-dependencies",
+    "claudia:create": "npm run claudia -- create --name ghost-bot --api-module bot --region us-west-2 --timeout 120 --configure-slack-slash-command --allow-recursion",
+    "claudia:update": "npm run claudia -- update --no-optional-dependencies"
+  },
+  "bin": {
+    "ghost": "bin/ghost"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.72.0",
+    "claudia-bot-builder": "^2.15.0",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.1",
+    "yargs": "^8.0.2",
+    "yargs-promise": "1.1.0"
+  },
+  "devDependencies": {
+    "claudia": "^2.11.0"
+  },
+  "keywords": [
+    "yargs",
+    "slack",
+    "chat",
+    "chatbot",
+    "bot",
+    "claudiajs",
+    "claudia",
+    "aws",
+    "lambda"
+  ]
+}
