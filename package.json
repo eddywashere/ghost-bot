@@ -1,7 +1,7 @@
 {
   "name": "ghost-bot",
   "version": "1.0.0",
-  "description": "A chatbot and cli built with yargs & claudia.js",
+  "description": "A chatbot/cli built with yargs & claudia.js",
   "main": "bot.js",
   "license": "MIT",
   "author": "Eddy Hernandez <edward.d.hernandez@gmail.com> (https://eddywashere.com)",
